@@ -5,20 +5,20 @@ import _ from 'lodash';
 
 import { isNativeCurrency } from '@uniswap/universal-router-sdk';
 import {
-  DAI_OPTIMISM_SEPOLIA,
   ITokenListProvider,
   IV2SubgraphProvider,
   IV4PoolProvider,
   IV4SubgraphProvider,
-  USDC_ARBITRUM_SEPOLIA,
-  USDC_OPTIMISM_SEPOLIA,
-  USDT_OPTIMISM_SEPOLIA,
   V2SubgraphPool,
   V4PoolAccessor,
   V4SubgraphPool,
-  WBTC_OPTIMISM_SEPOLIA,
 } from '../../../providers';
 import {
+  DAI_OPTIMISM_SEPOLIA,
+  USDC_ARBITRUM_SEPOLIA,
+  USDC_OPTIMISM_SEPOLIA,
+  USDT_OPTIMISM_SEPOLIA,
+  WBTC_OPTIMISM_SEPOLIA,
   CELO,
   CELO_ALFAJORES,
   CEUR_CELO,
